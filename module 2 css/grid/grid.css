@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.image{
+    width: 100%;
+    padding: 10px;
+    margin: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: 200px;
+    gap: 10px;   
+}
+
+
+.image image{
+width: 100%;
+padding: auto;
+border: 2px dotted black;
+}
+
+.image-1{
+    grid-column: span 3;
+}
+
+
+.image-5{
+    grid-column: span 2;
+}
+
+.image-7{
+    grid-column: span 2;
+}
+
+.image-8{
+    grid-column: span 2;
+}
+
+.image-9{
+    grid-column: span 2;
+}
+
+.image-3{
+    background-color: black;
+    grid-column: 5;
+    grid-row: span 4;
+}
+
+.foot-h2{
+    
+        font-size: clamp(16px,4.6vw,31px);
+         font-family: "Archivo";
+        color: white;
+        text-align: end;
+        padding-right: 20px;
+        padding: 20px;
+}
+.foot-ul{
+    list-style: none;
+    padding-right: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: end;
+}
+
+.foot-ul .foot-li{
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.foot-ul .foot-li .foot-a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    text-align: end;
+    padding: 10px;
+}
+
+.icon .icon-a{
+   padding: 0 10px;
+   color: white;
+}
+ 

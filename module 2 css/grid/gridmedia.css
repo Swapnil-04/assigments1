@@ -1,0 +1,27 @@
+@media only screen and (max-width:1099px) {
+    
+}
+@media only screen and (max-width:992px) {
+    .image{
+        grid-column: span 2;
+        grid-row: span 2;
+        
+    }
+   
+}
+@media only screen and (max-width:768px) {
+    .image{
+        grid-column: span 2;
+        display: block;
+        
+    }  
+    .image-3{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:576px) {
+    .image{
+        grid-row: span 2;
+    } 
+}

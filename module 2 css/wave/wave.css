@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sec1 {}
+
+.sec1 .waveone {
+    background: linear-gradient(rgba(45, 43, 43, 0.738), rgba(30, 29, 28, 0.368)),
+        url("https://iamtheasad.github.io/Bino-l-p/images/team/teame_bg.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.waveone .wave-h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+.waveone .wave-p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.line .one {
+    width: 5%;
+    border-bottom: 2px solid #ffffff;
+}
+
+.line .two {
+    width: 5%;
+    text-align: center;
+
+
+}
+
+.line .three {
+    width: 5%;
+    border-bottom: 2px solid #ffffff;
+}
+
+.team-sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.team-sec1 .icon-img {
+    position: absolute;
+    bottom: 0;
+    top: 50px;
+    left: 0;
+}
+
+.icon-img,
+img {
+    position: absolute;
+    margin: 50px 20px;
+    border-radius: 50px;
+}
+
+.svg {
+    margin-top: 13%;
+}
+
+.icon-img,
+.img-1 {
+    transform: translateY(100px);
+    top: 85px;
+}
+
+.icon-img,
+.img-2 {
+    transform: translateY(70px);
+    left: 200px;
+    top: 70px;
+
+}
+
+.icon-img,
+.img-3 {
+    transform: translateY(70px);
+    left: 460px;
+    top: 60px;
+}
+
+.icon-img,
+.img-4 {
+    transform: translateY(30px);
+    left: 750px;
+    top: 30px;
+}
+
+.icon-img,
+.img-5 {
+    transform: translateY(10px);
+    left: 1000px;
+    top: 10px;
+}
