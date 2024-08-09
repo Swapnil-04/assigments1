@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            justify-content: space-between;
+        }
+        ul li{
+            font-size: 2vw;
+            border: 2px solid;
+            display: inline-block;
+            text-align: center;
+            width: 16%;
+        }
+
+        ul li a{
+            justify-content: space-between;
+        }
+
+        .contactus h4{
+            background-color: palevioletred;
+            font-size: 1.5vw;
+            text-align: center;
+        }
+
+        .img-bg{
+            height: 300px;
+            background: linear-gradient(rgba(0, 0, 246, 0.5),rgba(247, 58, 213, 0.5)),url("./img/bg-contact.avif");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        table{
+            width: 100%;
+            text-align: center;
+        }
+
+        table td{
+            background-color: aqua;
+        }
+
+        .flex{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .map{
+            /* width: 700px; */
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="main">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">help</a></li>
+            <li><a href="">store</a></li>
+            <li><a href="">menu</a></li>
+        </ul>
+    </div>
+    <div class="img">
+        <img src="/img/q1.avif" alt="" height="100%" width="100%">
+    </div>
+    <div class="contactus">
+        <h4>Contact-us</h4>
+        <div class="img-bg">
+            <!-- <img src="/img/bg-contact.avif" alt="" height="50%" width="100%"> -->
+        </div>
+        <table border="1px">
+            <tr>
+                <td>First name<input type="text"></td>
+                <td>last name<input type="text"></td>
+            </tr>
+            <tr>
+                <td>email id<input type="email"></td>
+                <td>phone no<input type="number"></td>
+            </tr>
+            <tr>
+                <td>city<select name="" id=""><option value="">ahmedabad</option></select></td>
+                <td>gender<input type="radio" name="1">male <input type="radio" name="1">female</td>
+            </tr>
+        </table>
+    </div>
+    <div class="flex">
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.7210008580632!2d72.6064277750275!3d22.99728481727191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85c2fc005927%3A0x918e69150ca1c935!2sTOPS%20Technologies%20-%20Best%20IT%20Training%20Institute%20in%20Ahmedabad!5e0!3m2!1sen!2sin!4v1723179834305!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/Hz0S5gg5TN0?si=RFdaiyZtk4boUC83" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    </div>
+    
+</body>
+</html>
